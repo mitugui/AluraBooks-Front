@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Header from './components/Header'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createGlobalStyle } from 'styled-components';
@@ -30,6 +31,7 @@ root.render(
   <React.StrictMode>
     <GlobalStyle />
     <BrowserRouter>
+    <Header />
       <Routes>
         <Route path="/favoritos" element={<p>Aqui ficarão os favoritos</p>} />
         <Route path="/" element={<App />} />
