@@ -64,7 +64,7 @@ function Search() {
                 placeholder="Escreva sua próxima leitura"
                 onBlur={event => {
                     const typedText = event.target.value
-                    const searchResult = books.filter(livro => livro.name.includes(typedText))
+                    const searchResult = books.filter(book => book.name.includes(typedText))
                     setSearchedBooks(searchResult)
                 }}
             />
