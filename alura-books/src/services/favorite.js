@@ -8,6 +8,11 @@ async function getFavorites() {
     return response.data
 }
 
+async function postFavorite(id) {
+    await favoritesAPI.post(`/${id}`)
+}
+
 export {
-    getFavorites
+    getFavorites,
+    postFavorite
 }
