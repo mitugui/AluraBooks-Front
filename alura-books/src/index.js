@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Header from './components/Header'
-import Favorites from './routes/Favorites'; 
+import Favorites from './routes/Favorites';
 import Home from './routes/Home';
 import reportWebVitals from './reportWebVitals';
 import { createGlobalStyle } from 'styled-components';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 const GlobalStyle = createGlobalStyle`
+  * {
+    text-decoration:none; 
+  }
+
   body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

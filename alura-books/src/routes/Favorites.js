@@ -40,7 +40,8 @@ const Title = styled.h2`
     font-size: 36px;
     text-align: center;
     width: 100%;
-    padding-top: 35px
+    padding-top: 35px;
+    margin: 0;
 `
 
 function Favorites() {

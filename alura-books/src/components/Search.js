@@ -3,6 +3,7 @@ import { Input } from './Input'
 import { useEffect, useState } from 'react'
 import { getBooks } from '../services/books'
 import { postFavorite } from '../services/favorite'
+import bookImg from '../img/book.png'
 
 const SearchContainer = styled.section`
     background-image: linear-gradient(90deg, #002F52 35%, #326589 165%);
@@ -76,7 +77,7 @@ function Search() {
             />
             {searchedBooks.map(book => (
                 <Searched onClick={() => insertFavorite(book.id)}>
-                    <img src={book.src} alt={`Capa do livro ${book.name}`} />
+                    <img src={bookImg} alt={`Capa do livro ${book.name}`} />
                     <p>{book.name}</p>
                 </Searched>
             ))}
