@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { useEffect, useState } from 'react'
 import { deleteFavorite, getFavorites } from '../services/favorite'
-import bookImg from '../img/book.png'
+import bookImg from '../assets/img/book.png'
 
 const AppContainer = styled.div`
   width: 100vw;

@@ -3,7 +3,7 @@ import { Input } from './Input'
 import { useEffect, useState } from 'react'
 import { getBooks } from '../services/books'
 import { postFavorite } from '../services/favorite'
-import bookImg from '../img/book.png'
+import bookImg from '../assets/img/book.png'
 
 const SearchContainer = styled.section`
     background-image: linear-gradient(90deg, #002F52 35%, #326589 165%);

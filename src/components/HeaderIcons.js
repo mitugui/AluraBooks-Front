@@ -1,5 +1,5 @@
-import profile from '../img/profile.svg'
-import shopping_bag from '../img/shopping-bag.svg'
+import profile from '../assets/img/profile.svg'
+import shopping_bag from '../assets/img/shopping-bag.svg'
 import styled from 'styled-components'
 
 const Icons = styled.ul`
