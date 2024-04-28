@@ -1,23 +1,8 @@
-import { books } from '../latestReleasesData'
-import { Title } from './Title'
-import RecommendationCard from './RecommendationCard'
-import bookImage from '../assets/img/book2.png'
-import styled from 'styled-components'
-
-const LatestReleasesContainer = styled.section`
-    background-color: #EBECEE;
-    padding-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-`
-
-const NewBooksContainer = styled.div`
-    margin-top: 30px;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    cursor: pointer;
-`
+import { books } from '../../latestReleasesData'
+import { Title } from '../Title'
+import RecommendationCard from '../RecommendationCard'
+import bookImage from '../../assets/img/book2.png'
+import { LatestReleasesContainer, NewBooksContainer } from './styles'
 
 function LatestReleases() {
     return (

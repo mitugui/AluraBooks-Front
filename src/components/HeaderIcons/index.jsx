@@ -1,16 +1,6 @@
-import profile from '../assets/img/profile.svg'
-import shopping_bag from '../assets/img/shopping-bag.svg'
-import styled from 'styled-components'
-
-const Icons = styled.ul`
-    display: flex;
-    align-items: center;
-`
-
-const Icon = styled.li`
-    margin-left: 40px;
-    width: 25px;
-`
+import profile from '../../assets/img/profile.svg'
+import shopping_bag from '../../assets/img/shopping-bag.svg'
+import { Icons, Icon } from './styles';
 
 const icons = [profile, shopping_bag]
 

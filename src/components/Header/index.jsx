@@ -1,14 +1,8 @@
-import Logo from './Logo'
-import HeaderOptions from './HeaderOptions'
-import HeaderIcons from './HeaderIcons'
-import styled from 'styled-components'
+import Logo from '../Logo'
+import HeaderOptions from '../HeaderOptions'
+import HeaderIcons from '../HeaderIcons'
 import { Link } from 'react-router-dom'
-
-const HeaderContainer = styled.header`
-    background-color: #FFF;
-    display: flex;
-    justify-content: center;
-`
+import { HeaderContainer } from './styles'
 
 function Header() {
     return (
